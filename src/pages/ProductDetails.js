@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import '../styles/productDetails.css';
 
-const BASE_URL = 'https://e-commerce-backend-appl.herokuapp.com/';
+const BASE_URL = 'https://e-commerce-backend-appl.herokuapp.com';
 
 function ProductDetails() {
     const [productDetails, setProductDetails] = useState({});

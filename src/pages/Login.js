@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../styles/login.css';
 import { Link } from "react-router-dom";
 
-const BASE_URL = 'https://e-commerce-backend-appl.herokuapp.com/';
+const BASE_URL = 'https://e-commerce-backend-appl.herokuapp.com';
 
 function Login() {
     const [showSignup, setShowSignup] = useState(false);

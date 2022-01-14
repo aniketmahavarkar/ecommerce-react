@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react/cjs/react.development";
 import '../styles/cart.css';
 
-const BASE_URL = 'https://e-commerce-backend-appl.herokuapp.com/';
+const BASE_URL = 'https://e-commerce-backend-appl.herokuapp.com';
 
 function Cart() {
     const [orderDetails, setOrderDetails] = useState({});
